@@ -1,0 +1,60 @@
+
+
+#chicken, #beef, #sushi{
+	height: 700px;
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	position: relative;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+ .text{
+ 	padding-top: 10px;
+}
+
+#header-nav{
+	background-color: #b2b2b2;
+	border-radius: 0;
+	border: 0;
+}
+
+#brand-name{
+	color: #000;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle:hover{
+	border: 1px solid #fff;
+	background-color: transparent;
+}
+
+p{
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#collapsable-nav{
+	background-color: #fff;
+	border: 1px solid black;
+}
+
+hr{
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid;
+}
+
+@media (min-width: 768px) {
+
+	#collapsable-nav{
+	background-color: #b2b2b2;
+	border: none;
+}
+
+ }
